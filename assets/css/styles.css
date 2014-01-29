@@ -31,12 +31,13 @@ body {font-family: "Gotham", helvetica, arial, verdana, sans-serif; color: #333;
 h1 {font-size: 48px; text-align: center; text-transform: uppercase;}
 h2 {text-transform: uppercase; text-align: center; font-size: 56px; margin: 0; }
 h2 a { padding: 1em .5em;text-decoration: none; display: block;}
-h2, h2 a {-webkit-transition: all .8s ease 0;
--moz-transition: all .8s ease 0;
--o-transition: all .8s ease 0;
-transition: all .8s ease 0;}
-.pink, .pink a {color: #F05B62; }
-.pink:hover, .pink a:hover {background: #F05B62; color: #fafafa;}
+h2, h2 a {-webkit-transition: all .8s ease 0;-moz-transition: all .8s ease 0;-o-transition: all .8s ease 0;transition: all .8s ease 0;}
+
+.pink, .pink a {color: #F05B62; text-shadow: 3px 3px #fafafa, 6px 6px #e5e5e5;}
+.pink:hover, .pink a:hover {background: #F05B62; color: #fafafa;  text-shadow: 2px 2px #F05B62, 8px 8px #E5545A}
 
 .green, .green a {color: #92BB44;}
 .green:hover, .green a:hover {background: #92BB44; color: #fafafa;}
+
+.blue, .blue a {color: #00A9B4;}
+.blue:hover, .blue a:hover {background: #00A9B4; color: #fafafa;}
