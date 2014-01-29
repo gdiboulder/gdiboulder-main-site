@@ -1,3 +1,6 @@
 [submodule "python/slides"]
 	path = python/slides
 	url = https://github.com/gdiboulder/gdi-intro-python.git
+[submodule "htmlcss/slides"]
+	path = htmlcss/slides
+	url = https://github.com/gdiboulder/gdi-boulder-intro-html-css.git
