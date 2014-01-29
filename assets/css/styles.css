@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"), url("../fonts/Gotham/Gotham-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: local("Gotham-Book"), url("../fonts/Gotham/Gotham-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Italic";
+  src: local("Gotham-Italic"), url("../fonts/Gotham/Gotham-MediumItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: local("Gotham-Bold"), url("../fonts/Gotham/Gotham-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: bold; }
+* {-webkit-transition: color, background, margin, padding .5s ease 0;
+-moz-transition: color, background, margin, padding .5s ease 0;
+-o-transition: color, background, margin, padding .5s ease 0;
+transition: color, background, margin, padding .5s ease 0;
+margin: 0;}
+body {font-family: "Gotham", helvetica, arial, verdana, sans-serif; color: #333; padding: 0; margin: 0;}
+
+h1 {font-size: 48px; text-align: center; text-transform: uppercase;}
+h2 {text-transform: uppercase; text-align: center; font-size: 56px; margin: 0; }
+h2 a { padding: 1em .5em;text-decoration: none; display: block;}
+h2, h2 a {-webkit-transition: all .8s ease 0;
+-moz-transition: all .8s ease 0;
+-o-transition: all .8s ease 0;
+transition: all .8s ease 0;}
+.pink, .pink a {color: #F05B62; }
+.pink:hover, .pink a:hover {background: #F05B62; color: #fafafa;}
+
+.green, .green a {color: #92BB44;}
+.green:hover, .green a:hover {background: #92BB44; color: #fafafa;}
