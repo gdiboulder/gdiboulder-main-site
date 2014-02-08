@@ -4,3 +4,6 @@
 [submodule "htmlcss/slides"]
 	path = htmlcss/slides
 	url = https://github.com/gdiboulder/gdi-boulder-intro-html-css.git
+[submodule "servers"]
+	path = servers
+	url = https://github.com/gdiboulder/gdi-boulder-servers-intro.git
