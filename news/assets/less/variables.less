@@ -1,0 +1,55 @@
+// Typography
+// --------------------------------------------------
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"), url("../fonts/Gotham/Gotham-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: local("Gotham-Book"), url("../fonts/Gotham/Gotham-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gotham-Italic";
+  src: local("Gotham-Italic"), url("../fonts/Gotham/Gotham-MediumItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: local("Gotham-Bold"), url("../fonts/Gotham/Gotham-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: bold; }
+
+@base-font: 'Lato', sans-serif;
+@heading-font: "Gotham";
+@caption-font: @base-font;
+@code-font: 'source-code-pro', monospace;
+@alt-font: @base-font;
+
+@doc-font-size: 16;
+@doc-line-height: 30;
+
+
+// set-up the body font-size / line-height
+body {
+	margin-top: 0px + @doc-line-height;
+	font-size: 0px + @doc-font-size;
+}
+
+// Colors
+// --------------------------------------------------
+
+@body-color      		: #ebebeb;
+@text-color      		: #53545B;
+@base-color 	 		: #343434;
+@comp-color 	 		: spin(@base-color, 180);
+@border-color    		: @base-color;
+@white           		: #fff;
+@black           		: #53545B;
+@accent-color    		: @black;
+@link-color 		    : #ee4679;
+@sub-color: lighten(@base-color, 40);

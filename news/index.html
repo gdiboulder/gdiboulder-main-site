@@ -1,0 +1,20 @@
+---
+layout: page_home
+title: Girl Develop It Boulder
+description: "A simple and clean responsive Jekyll theme for words and photos."
+tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+image:
+  feature: python-header.png
+---
+<ul class="post-list">
+{% for post in site.posts %}
+  <li>
+    <article>
+      <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+      <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
+
+      <p>{{ post.description}}</p>
+    </article>
+  </li>
+{% endfor %}
+</ul>
