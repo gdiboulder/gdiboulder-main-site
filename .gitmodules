@@ -10,3 +10,6 @@
 [submodule "servers/slides"]
 	path = servers/slides
 	url = https://github.com/gdiboulder/gdi-boulder-servers-intro.git
+[submodule "programming"]
+	path = programming
+	url = git@github.com:gdiboulder/gdi-boulder-intro-programming-concepts.git
